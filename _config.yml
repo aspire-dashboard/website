@@ -18,6 +18,8 @@ navbar:
       link: "#features"
     - nav: GitHub
       link: "https://github.com/dotnet/aspire"
+    - nav: Docs
+      link: "https://learn.microsoft.com/dotnet/aspire/fundamentals/dashboard/standalone"
     - nav: Community
       link: "#community"
     - nav: FAQ
