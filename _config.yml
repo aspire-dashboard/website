@@ -1,0 +1,116 @@
+# Site and SEO Setup
+title: Aspire
+description: Aspire Dashboard for Open Telemetry
+url: ""
+#baseurl: ""
+locale: en_US
+lang: en
+logo: /assets/img/logos.png
+image: /assets/img/logos.png
+favicon: /assets/img/logos.png
+
+# Navbar Setup
+navbar:
+  logo: /assets/img/logos.png
+  button: Connect
+  list:
+    - nav: Home
+      link: "#home"
+    - nav: Features
+      link: "#features"
+    - nav: Dashboard
+      link: "#dashboard"
+    - nav: Start
+      link: "#start"
+    - nav: FAQ
+      link: "#faq"
+    - nav: Contact
+      link: "#contact"
+
+# Connection Setup
+connect:
+  title: Connect With Us
+  list:
+    - title: Login App
+      icon: /assets/img/logapp.svg
+      link: https://example.com
+    - title: Sign Up
+      icon: /assets/img/signup.svg
+      link: https://example.com
+    - title: Video Tutorial
+      icon: /assets/img/video.svg
+      link: https://example.com
+
+# Contact Form Setup
+contact_form:
+  title: Contact Us
+  description: Get in touch
+  button: Sent Message
+  email: axcora@gmail.com
+
+# Contact info setup
+contact_info:
+  title: Contact Info
+  phone_title: Call Anytime
+  contact_phone:
+    - text: Mobile
+      number: 1999999999
+    - text: Hotline
+      number: 123456
+  email_title: Email Us
+  contact_email:
+    - text: Support
+      mail: suport@support.com
+    - text: Info
+      mail: info@info.com
+# Footer Setup
+footer:
+  title: Join our Aspire Dashboard community
+  text: There are many variations of passages of Lorem Ipsum available, but the
+    majority have suffered alteration in some form.
+  button:
+    - text: Join Our Discord
+      icon: /assets/img/discord.svg
+      link: https://discord.com/
+    - text: Email Us
+      icon: /assets/img/envelope.svg
+      link: mailto:axcora@gmail.com
+    - text: Youtube Video
+      icon: /assets/img/envelope.svg
+      link: https://youtube.com/dotnet
+copyrights: Copyright © 2024
+
+# Social Media Setup
+social:
+  facebook: https://www.facebook.com/dotnet
+  twitter: https://www.twitter.com/dotnet
+  instagram: https://www.instagram.com/dotnet.develoeprs
+  youtube: https://www.youtube.com/@dotnet
+  whatsapp: 
+
+# Jekyll Setup
+collections:
+  pages:
+    output: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+developer:
+  name: Refractored LLC
+  hire: 
+  site: 
+defaults:
+  - scope:
+      path: assets/img
+    values:
+      image: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  - scope:
+      path: ""
+    values:
+      layout: default

@@ -1,0 +1,39 @@
+<section>
+    <div class="cs-height_100 cs-height_lg_70"></div>
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse-lg">
+        <div class="col-md-8 text-center mx-auto wow fadeIn mt-5" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="cs-height_0 cs-height_lg_40"></div>
+          <div class="cs-right_space_40">
+            <div class="cs-seciton_heading cs-style1">
+              <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color text-uppercase">{{page.github.intro}}</h3>
+              <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">{{page.github.title}}</h2>
+            </div>
+            <div class="cs-height_20 cs-height_lg_20"></div>
+            <p>{{page.github.text}} </p>
+        </div>
+      </div>
+    </div>
+   </div>
+</section>
+<div class="cs-height_90 cs-height_lg_65"></div>
+  <div class="container text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.35s">
+    <div class="row">
+	{% for s in page.github.list %}
+      <div class="col-lg-3 col-6">
+        <div class="cs-funfact cs-style1">
+          <div class="cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold"><span data-count-to="{{s.number}}" class="odometer"></span></div>
+          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">{{s.title}}</p>
+        </div>
+        <div class="cs-height_25 cs-height_lg_25"></div>
+      </div>
+	{% endfor %}
+     <div class="col-lg-3 col-6">
+        <div class="cs-funfact cs-style1">
+          <div class="cs-font_64 cs-font_36_sm cs-m0 cs-primary_font cs-primary_color cs-heading_line_height cs-bold"><span data-count-to="{{page.github.star.number}}" class="odometer"></span>k</div>
+          <p class="cs-m0 cs-font_24 cs-heading_line_height cs-font_22_sm">{{page.github.star.title}}</p>
+        </div>
+        <div class="cs-height_25 cs-height_lg_25"></div>
+      </div>	  
+    </div>
+</div>
