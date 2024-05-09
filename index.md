@@ -2,7 +2,8 @@
 layout: home
 title: Aspire Dashboard
 description: A free & open-source OpenTelemery dashboard for your apps.
-image: /assets/img/dotnet-Aspire-trace-view-filter.png
+image: /assets/img/aspire.gif
+movie: /assets/img/aspire.mp4
 button1:
   text: Features
   link: "#features"
