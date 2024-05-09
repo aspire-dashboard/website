@@ -1,17 +1,17 @@
 ---
 layout: home
-title: Aspire Dashboard for Open Telemetry
-description: Lorep ipsum dolor simaet amet jabang bayi lanang wedok.
+title: Aspire Dashboard
+description: A free & open-source OpenTelemery dashboard for every app.
 image: /assets/img/dotnet-Aspire-trace-view-filter.png
 button1:
   text: Features
   link: "#features"
 button2:
-  text: Get Start Now
+  text: Get Started
   link: "#start"
 features:
-  intro: THE BEST FEATURES
-  title: Features
+  intro: FEATURES
+  title: OpenTelemery & More
   list1:
     title: Structured Logs
     icon: /assets/img/logs.svg
@@ -29,26 +29,26 @@ features:
     icon: /assets/img/deps.svg
     text: Lorep ipsum dolor siamet Lorep ipsum dolor siamet
 github:
-  intro: GITHUB STATS
-  title: Github Stats
+  intro: STATS
+  title: Loved by developers
   text: Lorep ipsum dolor siamet amet Lorep ipsum dolor siamet amet ,Lorep ipsum
     dolor siamet amet Lorep ipsum dolor siamet amet
   list:
-    - title: Download
+    - title: Downloads
       number: 1200
-    - title: Fork
-      number: 852
-    - title: Clone
+    - title: Forks
+      number: 277
+    - title: Clones
       number: 1125
   star:
-    title: Github Star
-    number: "42.2"
+    title: Github Stars
+    number: "2.9"
 section:
   intro: ASPIRE DASHBOARD
   title: Get Aspire Dashboard Container
 start:
   intro: GET STARTED
-  title: Lets get started with Aspire Dashboard
+  title: Easily integrate into your apps
 start_python:
   title: Python
   icon: /assets/img/py.svg

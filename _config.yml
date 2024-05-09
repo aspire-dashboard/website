@@ -1,6 +1,6 @@
 # Site and SEO Setup
 title: Aspire
-description: Aspire Dashboard for Open Telemetry
+description: Aspire Dashboard for OpenTelemetry
 url: ""
 #baseurl: ""
 locale: en_US
@@ -12,20 +12,16 @@ favicon: /assets/img/logos.png
 # Navbar Setup
 navbar:
   logo: /assets/img/logos.png
-  button: Connect
+  button: Get Started
   list:
-    - nav: Home
-      link: "#home"
     - nav: Features
       link: "#features"
-    - nav: Dashboard
-      link: "#dashboard"
-    - nav: Start
-      link: "#start"
+    - nav: GitHub
+      link: "https://github.com/dotnet/aspire"
+    - nav: Community
+      link: "#community"
     - nav: FAQ
       link: "#faq"
-    - nav: Contact
-      link: "#contact"
 
 # Connection Setup
 connect:
@@ -72,12 +68,6 @@ footer:
     - text: Join Our Discord
       icon: /assets/img/discord.svg
       link: https://discord.com/
-    - text: Email Us
-      icon: /assets/img/envelope.svg
-      link: mailto:axcora@gmail.com
-    - text: Youtube Video
-      icon: /assets/img/envelope.svg
-      link: https://youtube.com/dotnet
 copyrights: Copyright © 2024
 
 # Social Media Setup
