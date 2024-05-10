@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Aspire Dashboard
-description: A free & open-source OpenTelemery dashboard for your apps.
+description: A free & open-source OpenTelemetry dashboard for deep insights into your apps on your local development machine.
 image: /assets/img/aspire.gif
 movie: /assets/img/aspire.mp4
 button1:
@@ -14,7 +14,7 @@ features:
   intro: FEATURES
   title: Essentials for developers
   list1:
-    title: Structured Logs
+    title: Traces
     icon: /assets/img/logs.svg
     text: Lorep ipsum dolor siamet
   list2:
@@ -22,7 +22,7 @@ features:
     icon: /assets/img/metrixs.svg
     text: Lorep ipsum dolor siamet Lorep ipsum dolor siamet
   list3:
-    title: Distributed Traces
+    title: Logs
     icon: /assets/img/trace.svg
     text: Lorep ipsum dolor siamet
   list4:
@@ -90,6 +90,6 @@ faq:
     - q: Question New
       a: This is answer for question new area
 ---
-T﻿his a content for features area
+Get deep insight into your applications on your local development environment.
 
-Lorep ipsum dolor siamet amet Lorep ipsum dolor siamet amet ,Lorep ipsum dolor siamet amet Lorep ipsum dolor siamet amet Lorep ipsum dolor siamet amet Lorep ipsum dolor siamet amet ,Lorep ipsum dolor siamet amet Lorep ipsum dolor siamet amet
+Full support for OpenTelemetry across a wide range of programming languages and frameworks including Python, Java, JavaScript, Ruby, Rust, .NET, Swift, and so much more!
