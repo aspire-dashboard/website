@@ -12,21 +12,52 @@
     <div class="row wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.4s">
       <div class="col-md-12 p-3 p-md-5">
         <div class="cs-iconbox cs-style1 cs-light_bg">
-     <pre><code>
-{% include code/dashboard.html %}
-     </code></pre>
-         </div>
-       </div>
-     </div>
-
-     <div class="cs-height_25 cs-height_lg_25"></div>
-     <div class="cs-seciton_heading cs-style1 wow fadeInUp col-md-10 mx-auto" data-wow-duration="1s"
-      data-wow-delay="0.2s">
-      <!-- <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color">{{page.start.intro}}</h3> -->
-      <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">{{page.start.title}}</h2>
+          <pre><code>
+            {% include code/dashboard.html %}
+          </code></pre>
+          <p>{{page.section.subtitle}}:</p>
+          <ul>
+          {% for cs in page.section.list %}
+            <li>{{cs.text}}</li>
+          {% endfor %}
+          </ul>
+        </div>
+          
+      </div>
     </div>
-     
-    <div class="cs-height_50 cs-height_lg_30"></div>
+<!-- 
+     <div class="cs-height_25 cs-height_lg_25"></div> -->
+     <div class="col-md-10 mx-auto wow fadeIn mt-5" data-wow-duration="1s" data-wow-delay="0.2s">
+      <div class="cs-height_0 cs-height_lg_0"></div>
+      <div class="cs-right_space_40">
+        <div class="cs-seciton_heading cs-style1">
+          <!-- <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color text-uppercase">{{page.features.intro}}</h3> -->
+          <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">{{page.login.title}}</a></h2>
+        </div>
+        <div class="cs-height_20 cs-height_lg_20"></div>
+      {{page.login.subtitle}}
+      <div class="cs-height_20 cs-height_lg_20"></div>
+      </div>
+    </div>
+
+     <div class="col-lg-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.4s">
+      <div class="cs-height_20 cs-height_lg_20"></div>
+        <img class="img-fluid rounder" src="{{page.login.image}}" alt="{{page.login.title}}">
+        <div class="cs-height_20 cs-height_lg_20"></div>
+      </div>
+      
+
+      <div class="col-md-10 mx-auto wow fadeIn mt-5" data-wow-duration="1s" data-wow-delay="0.2s">
+        <div class="cs-height_0 cs-height_lg_0"></div>
+        <div class="cs-right_space_40">
+          <div class="cs-seciton_heading cs-style1">
+            <!-- <h3 class="cs-section_title cs-font_16 cs-font_14_sm cs-gradient_color text-uppercase">{{page.features.intro}}</h3> -->
+            <h2 class="cs-section_subtitle cs-m0 cs-font_36 cs-font_24_sm">{{page.start.title}}</a></h2>
+          </div>
+          <div class="cs-height_20 cs-height_lg_20"></div>
+      </div>
+<!--      
+    <div class="cs-height_50 cs-height_lg_30"></div> -->
 
     <div class="row wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
 

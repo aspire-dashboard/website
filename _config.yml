@@ -64,8 +64,7 @@ contact_info:
 # Footer Setup
 footer:
   title: Join our Aspire Dashboard community
-  text: There are many variations of passages of Lorem Ipsum available, but the
-    majority have suffered alteration in some form.
+  text: Chat with the Aspire community on integrating OpenTelemetry with the Aspire Dashboard, building distributed cloud-native apps, and so much more.
   button:
     - text: Join Our Discord
       icon: /assets/img/discord.svg

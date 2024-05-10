@@ -16,37 +16,46 @@ features:
   list1:
     title: Traces
     icon: /assets/img/logs.svg
-    text: Lorep ipsum dolor siamet
+    text: Understand the flow of requests and identify performance bottlenecks.
   list2:
     title: Metrics
     icon: /assets/img/metrixs.svg
-    text: Lorep ipsum dolor siamet Lorep ipsum dolor siamet
+    text: Analyze quantitative data about your apps behavior and performance.
   list3:
     title: Logs
     icon: /assets/img/trace.svg
-    text: Lorep ipsum dolor siamet
+    text: Detailed debugging and diagnostics with with structured and unstructured log views.
   list4:
     title: Dependencies
     icon: /assets/img/deps.svg
-    text: Lorep ipsum dolor siamet Lorep ipsum dolor siamet
+    text: Understand how your app is orchestrated and how the components work together.
 github:
   intro: STATS
   title: Loved by developers
-  text: Lorep ipsum dolor siamet amet Lorep ipsum dolor siamet amet ,Lorep ipsum
-    dolor siamet amet Lorep ipsum dolor siamet amet
+  text: Developers across the globe trust the Aspire Dashboard to get mission critical information while they are developing their applications. The Aspire Dashboard is free,  open-source, and constantly adding new features based on your feedback. 
   list:
-    - title: Downloads
-      number: 1200
+    - title: Container Pulls
+      number: 23000
     - title: Forks
-      number: 277
+      number: 279
     - title: Clones
-      number: 1125
+      number: 2486
+    - title: GitHub Stars
+      number: 2959
   star:
-    title: Github Stars
-    number: "2.9"
+    title: GitGub Stars
+    number: "3"
 section:
   intro: ASPIRE CONTAINER
-  title: Get Aspire Dashboard Container
+  title: Get the container
+  subtitle: The container has two ports
+  list: 
+    - text: Port 4317 receives OpenTelemetry data from apps. Apps send data using OpenTelemetry Protocol (OTLP).
+    - text: Port 18888 has the dashboard UI. Navigate to http://localhost:18888 in the browser to view the dashboard.
+login:
+  title: Login to dashboard
+  subtitle: Data displayed in the dashboard can be sensitive. By default, the dashboard is secured with authentication that requires a token to login. The login token is printed to the container logs. After copying the highlighted token into the login page, select the Login button.
+  image: /assets/img/aspire-dashboard-container-log.png
 start:
   intro: GET STARTED
   title: Easily integrate into your apps
