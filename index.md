@@ -62,15 +62,22 @@ start:
 start_python:
   title: Python
   icon: /assets/img/py.svg
+  link: https://opentelemetry.io/docs/languages/python/getting-started/
 start_javascript:
   title: JavaScript
   icon: /assets/img/js.svg
+  link: https://opentelemetry.io/docs/languages/js/getting-started/
 start_java:
   title: Java
   icon: /assets/img/java.svg
+  link: https://opentelemetry.io/docs/languages/java/getting-started/
 start_c:
   title: C#
   icon: /assets/img/csharp.svg
+  link: https://opentelemetry.io/docs/languages/net/getting-started/
+start_more:
+  title: More
+  link: https://opentelemetry.io/docs/languages/
 faq:
   intro: FAQ
   title: Still have questions?
