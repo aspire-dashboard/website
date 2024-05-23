@@ -1,13 +1,38 @@
-$('i[rel="pre"]').replaceWith(function() {
-  return $('<pre><code>' + $(this).html() + '</code></pre>');
+// Getting Started Doc: https://opentelemetry.io/docs/languages/js/getting-started/nodejs/
+// Use gRPC OTEL Exporter: https://opentelemetry.io/docs/languages/js/exporters/#otlp-dependencies
+
+//Install following dependencies
+npm install @opentelemetry/sdk-node \
+  @opentelemetry/api \
+  @opentelemetry/auto-instrumentations-node \
+  @opentelemetry/sdk-metrics \
+  @opentelemetry/sdk-trace-node \
+  @opentelemetry/exporter-trace-otlp-grpc \
+  @opentelemetry/exporter-metrics-otlp-grpc
+
+// create instrumentation.js
+/*instrumentation.js*/
+const opentelemetry = require('@opentelemetry/sdk-node');
+const { getNodeAutoInstrumentations,} = require('@opentelemetry/auto-instrumentations-node');
+const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-grpc');
+const { OTLPMetricExporter} = require('@opentelemetry/exporter-metrics-otlp-grpc');
+const { PeriodicExportingMetricReader } = require('@opentelemetry/sdk-metrics');
+const { Resource } = require('@opentelemetry/resources');
+const { SEMRESATTRS_SERVICE_NAME, SEMRESATTRS_SERVICE_VERSION } = require('@opentelemetry/semantic-conventions');
+
+const sdk = new opentelemetry.NodeSDK({
+  traceExporter: new OTLPTraceExporter(),
+  metricReader: new PeriodicExportingMetricReader({
+    exporter: new OTLPMetricExporter(),
+  }),
+  instrumentations: [getNodeAutoInstrumentations()],
+  resource: new Resource({
+    [SEMRESATTRS_SERVICE_NAME]: 'my-nodejs-app',
+    [SEMRESATTRS_SERVICE_VERSION]: '0.1.0',
+  }),
 });
-var pres = document.querySelectorAll('pre,kbd,blockquote');
-for (var i = 0; i < pres.length; i++) {
-  pres[i].addEventListener("dblclick", function () {
-    var selection = getSelection();
-    var range = document.createRange();
-    range.selectNodeContents(this);
-    selection.removeAllRanges();
-    selection.addRange(range);
-  }, false);
-}
+sdk.start();
+
+// start app: node --require ./instrumentation.js app.js
+// sample code: https://github.com/aspire-dashboard/express-sample
+
