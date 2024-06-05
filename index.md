@@ -13,7 +13,7 @@ button2:
 features:
   intro: FEATURES
   title: Essentials for developers
-  list1:
+  list3:
     title: Traces
     icon: /assets/img/logs.svg
     text: Understand the flow of requests and identify performance bottlenecks.
@@ -21,7 +21,7 @@ features:
     title: Metrics
     icon: /assets/img/metrixs.svg
     text: Analyze quantitative data about your apps behavior and performance.
-  list3:
+  list1:
     title: Logs
     icon: /assets/img/trace.svg
     text: Detailed debugging and diagnostics with with structured and unstructured log views.
