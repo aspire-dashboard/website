@@ -22,6 +22,8 @@ navbar:
       link: "https://learn.microsoft.com/dotnet/aspire/fundamentals/dashboard/standalone"
     - nav: Community
       link: "#community"
+    - nav: Samples
+      link: "https://github.com/orgs/aspire-dashboard/repositories"
 
 # Connection Setup
 connect:
