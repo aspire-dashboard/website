@@ -23,7 +23,7 @@ navbar:
     - nav: Community
       link: "#community"
     - nav: Samples
-      link: "https://github.com/orgs/aspire-dashboard/repositories"
+      link: "https://github.com/aspire-dashboard/repositories"
 
 # Connection Setup
 connect:
