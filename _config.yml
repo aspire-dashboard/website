@@ -1,7 +1,7 @@
 # Site and SEO Setup
 title: Aspire
 description: Aspire Dashboard for OpenTelemetry
-url: ""
+url: "https://www.aspiredashboard.com"
 #baseurl: ""
 locale: en_US
 lang: en
@@ -25,42 +25,6 @@ navbar:
     - nav: Samples
       link: "https://github.com/aspire-dashboard/repositories"
 
-# Connection Setup
-connect:
-  title: Connect With Us
-  list:
-    - title: Login App
-      icon: /assets/img/logapp.svg
-      link: https://example.com
-    - title: Sign Up
-      icon: /assets/img/signup.svg
-      link: https://example.com
-    - title: Video Tutorial
-      icon: /assets/img/video.svg
-      link: https://example.com
-
-# Contact Form Setup
-contact_form:
-  title: Contact Us
-  description: Get in touch
-  button: Sent Message
-  email: axcora@gmail.com
-
-# Contact info setup
-contact_info:
-  title: Contact Info
-  phone_title: Call Anytime
-  contact_phone:
-    - text: Mobile
-      number: 1999999999
-    - text: Hotline
-      number: 123456
-  email_title: Email Us
-  contact_email:
-    - text: Support
-      mail: suport@support.com
-    - text: Info
-      mail: info@info.com
 # Footer Setup
 footer:
   title: Join our Aspire Dashboard community
@@ -88,7 +52,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 developer:
-  name: Refractored LLC
+  name: Aspire Dashboard
   hire: 
   site: 
 defaults:

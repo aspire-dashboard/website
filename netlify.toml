@@ -1,3 +1,0 @@
-[build]
-	publish = "_site/admin"
-	command = "bundle exec jekyll build"
