@@ -64,20 +64,20 @@ contact_info:
 # Footer Setup
 footer:
   title: Join our Aspire Dashboard community
-  text: Chat with the Aspire community on integrating OpenTelemetry with the Aspire Dashboard, building distributed cloud-native apps, and so much more.
+  text: Chat with the Aspire community on integrating OpenTelemetry with the Aspire Dashboard, building distributed cloud-native apps, and so much more. Join the aspire channel under frameworks.
   button:
     - text: Join Our Discord
       icon: /assets/img/discord.svg
-      link: https://discord.com/
+      link: http://aka.ms/dotnet-discord
 copyrights: Copyright © 2024
 
 # Social Media Setup
 social:
-  facebook: https://www.facebook.com/dotnet
-  twitter: https://www.twitter.com/dotnet
-  instagram: https://www.instagram.com/dotnet.develoeprs
-  youtube: https://www.youtube.com/@dotnet
-  whatsapp: 
+  facebook:
+  twitter:
+  instagram:
+  youtube:
+  whatsapp:
 
 # Jekyll Setup
 collections:
