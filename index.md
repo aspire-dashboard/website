@@ -35,13 +35,13 @@ github:
   text: Developers across the globe trust the Aspire Dashboard to get mission critical information while they are developing their applications. The Aspire Dashboard is free,  open-source, and constantly adding new features based on your feedback. 
   list:
     - title: Container Pulls
-      number: 23000
+      number: 35000
     - title: Forks
-      number: 279
-    - title: Clones
+      number: 316
+    - title: Clones (monthly)
       number: 2486
     - title: GitHub Stars
-      number: 2959
+      number: 3236
   star:
     title: GitGub Stars
     number: "3"
@@ -54,7 +54,7 @@ section:
     - text: Port 18888 has the dashboard UI. Navigate to http://localhost:18888 in the browser to view the dashboard.
 login:
   title: Login to dashboard
-  subtitle: Data displayed in the dashboard can be sensitive. By default, the dashboard is secured with authentication that requires a token to login. The login token is printed to the container logs. After copying the highlighted token into the login page, select the Login button.
+  subtitle: Data displayed in the dashboard can be sensitive. By default, the dashboard is secured with authentication that requires a token to login. The login token is printed to the container logs. After copying the highlighted token into the login page at http://localhost:18888, select the Login button.
   image: /assets/img/aspire-dashboard-container-log.png
 start:
   intro: GET STARTED

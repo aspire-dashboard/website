@@ -2,13 +2,13 @@
 // Use gRPC OTEL Exporter: https://opentelemetry.io/docs/languages/java/exporters/#otlp-dependencies
 
 
-# 1. Insall dependencies
-Gradle:
+// 1. Insall dependencies
+//Gradle:
 dependencies {
     implementation 'io.opentelemetry:opentelemetry-exporter-otlp:1.39.0'
 }
 
-Maven:
+//Maven:
 <project>
     <dependencies>
         <dependency>
@@ -18,10 +18,10 @@ Maven:
     </dependencies>
 </project>
 
-# 2. Configure exporter
+// 2. Configure exporter
 env OTEL_EXPORTER_OTLP_ENDPOINT=http://example:4317 java -jar ./build/libs/java-simple.jar
 
-# 3. Integrate with your application
+// 3. Integrate with your application
 
 package otel;
 
