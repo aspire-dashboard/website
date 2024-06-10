@@ -8,16 +8,6 @@ dependencies {
     implementation 'io.opentelemetry:opentelemetry-exporter-otlp:1.39.0'
 }
 
-//Maven:
-<project>
-    <dependencies>
-        <dependency>
-            <groupId>io.opentelemetry</groupId>
-            <artifactId>opentelemetry-exporter-otlp</artifactId>
-        </dependency>
-    </dependencies>
-</project>
-
 // 2. Configure exporter
 env OTEL_EXPORTER_OTLP_ENDPOINT=http://example:4317 java -jar ./build/libs/java-simple.jar
 
