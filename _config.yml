@@ -1,7 +1,7 @@
 # Site and SEO Setup
 title: Aspire
 description: Aspire Dashboard for OpenTelemetry
-url: "https://www.aspiredashboard.com"
+url: "http://www.aspiredashboard.com"
 #baseurl: ""
 locale: en_US
 lang: en
@@ -32,7 +32,7 @@ footer:
   button:
     - text: Join Our Discord
       icon: /assets/img/discord.svg
-      link: http://aka.ms/dotnet-discord
+      link: https://aka.ms/dotnet-discord
 copyrights: Copyright © 2024
 
 # Social Media Setup
