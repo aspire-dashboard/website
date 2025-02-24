@@ -42,7 +42,7 @@ github:
       number: 24575
   star:
     title: Container Pulls
-    number: "2.6"
+    number: 2.6
 section:
   intro: ASPIRE CONTAINER
   title: Get the container
