@@ -34,17 +34,15 @@ github:
   title: Loved by developers
   text: Developers across the globe trust the Aspire Dashboard to get mission critical information while they are developing their applications. The Aspire Dashboard is free,  open-source, and constantly adding new features based on your feedback. 
   list:
-    - title: Container Pulls (million)
-      number: "2.6M"
+    - title: GitHub Stars
+      number: 4226
     - title: Forks
       number: 543
     - title: Clones (monthly)
       number: 24575
-    - title: GitHub Stars
-      number: 4226
   star:
-    title: GitGub Stars
-    number: "3"
+    title: Container Pulls
+    number: "2.6"
 section:
   intro: ASPIRE CONTAINER
   title: Get the container
