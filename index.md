@@ -40,7 +40,7 @@ github:
       number: 543
     - title: Clones (monthly)
       number: 24575
-  star:
+  pulls:
     title: Container Pulls
     number: 2.6
 section:
